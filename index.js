@@ -29,6 +29,12 @@ function startGame(){
     guessChance =0;
     pGuess = [];
     if (playGame) {
+        
+        input.addEventListener("keydown",(e)=>{
+            if (e.key === "Enter") {
+                isValid(input.value);
+            }
+        })
         btn.addEventListener("click",()=>{
             isValid(input.value);
         })
@@ -73,6 +79,8 @@ function continueGame(){
     
     if(guessChance===10){
         displayMessage(`The Number is ${guessNumber}`);
+        h1.innerHTML = "Best Of Luck Next Time";
+        h1.style.color= "red";
         endGame();
         input.value = "";
     }
