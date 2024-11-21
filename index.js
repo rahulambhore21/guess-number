@@ -45,6 +45,9 @@ function isValid(e){
     if(isNaN(e)){
         alert("Please Enter Number");
     }
+    else if(!Number.isInteger(e)){
+        alert("Nikal Bsdk 💀")
+    }
     else if (e<1) {
         alert("Please Enter Value Greater Than 1");
     }
