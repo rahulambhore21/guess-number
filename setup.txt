@@ -1,0 +1,51 @@
+1. Color Palette
+This palette is based on darker tones to give a sleek, modern feel while ensuring text and key elements stand out:
+
+Primary Color: #1E1E1E (Charcoal Gray) – Dark background color for the majority of the page.
+Secondary Color: #2C3E50 (Dark Blue-Gray) – Used for sidebars, cards, or accents.
+Accent Color: #F39C12 (Golden Yellow) – For important buttons, links, or calls to action.
+Background Color: #121212 (Near Black) – A deep dark tone for the background, providing contrast and a clean, sharp feel.
+Text Color:
+Primary text: #ECF0F1 (Light Gray) – For regular text that contrasts well with dark backgrounds.
+Secondary text: #95A5A6 (Muted Gray) – For secondary text, like dates or metadata.
+Error Color: #E74C3C (Red) – For warnings, error messages, or alerts.
+Success Color: #2ECC71 (Green) – For success messages or feedback.
+2. Typography
+Primary Font: Choose a clean, modern font that's easy to read on dark backgrounds.
+Font Family: Roboto, Montserrat, or Open Sans
+Font Weight: Regular (400) for body text, Bold (700) for headings.
+Heading Sizes:
+H1: 3rem (32px) – Major titles
+H2: 2.5rem (24px) – Subheadings or section titles
+H3: 2rem (20px) – Minor subheadings
+Paragraph: 1rem (16px) – Standard body text
+3. Layout & Spacing
+Grid System: A 12-column grid layout still works great for flexibility and responsiveness.
+Example: If using CSS Grid or Flexbox, allocate a 4-column width for primary content and 8-column for sidebars or secondary content.
+Padding & Margin:
+Container Padding: 20px for ample space around the content.
+Card Padding: 15px to keep content comfortable.
+Margins between sections: 30px to ensure clear separation and a balanced layout.
+4. Buttons & Interactions
+Primary Button:
+
+Background: #F39C12 (Golden Yellow)
+Text Color: #121212 (Near Black)
+Hover: Darker Yellow (#F1C40F)
+Border Radius: 5px
+Padding: 10px 20px
+Box Shadow: 0 4px 6px rgba(0, 0, 0, 0.2)
+Secondary Button:
+
+Background: #34495E (Dark Slate Blue)
+Text Color: #ECF0F1 (Light Gray)
+Hover: #2C3E50 (Darker Slate Blue)
+Links:
+
+Default: #F39C12 (Golden Yellow)
+Hover: #F1C40F (Lighter Yellow)
+5. Card Design
+Card Background: #2C3E50 (Dark Blue-Gray)
+Card Border: 1px solid #34495E (Slate Blue)
+Card Shadow: 0 4px 8px rgba(0, 0, 0, 0.3)
+Card Padding: 20px
